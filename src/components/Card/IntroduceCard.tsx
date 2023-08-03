@@ -25,7 +25,7 @@ interface IntroduceCardProps {
 }
 
 const IntroduceCard = (props: IntroduceCardProps) => {
-  const { title, subTitle, description, referPath, background, lastElement } =
+  const { title, subTitle, description, referPath, lastElement } =
     props;
 
   return (
